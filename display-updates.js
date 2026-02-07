@@ -7,7 +7,7 @@ async function loadAndDisplayUpdates() {
     const container = document.getElementById('updates-container');
     container.innerHTML = '';
 
-    if (updates.length === 0) {
+    if (!Array.isArray(updates) || updates.length === 0) {
       container.innerHTML = '<p>No updates available.</p>';
       return;
     }
