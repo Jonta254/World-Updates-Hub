@@ -1,32 +1,27 @@
-[
+export const updates = [
   {
-    "title": "World ID 4.0 is Live 🚀",
-    "content": "World introduces World ID 4.0 with multiple authenticators and stronger privacy protections.",
-    "link": "https://world.org/blog",
-    "time": "2026-02-06"
+    title: "World ID 2.0 Expansion",
+    description: "Worldcoin expands World ID verification to new regions.",
+    link: "https://world.org/blog"
   },
   {
-    "title": "New Mini Apps Added to World App",
-    "content": "More tools and community mini apps are now available inside the World App ecosystem.",
-    "link": "https://world.org/blog",
-    "time": "2026-02-05"
+    title: "World App Wallet Improvements",
+    description: "New UI and faster transactions in the World App.",
+    link: "https://world.org/blog"
   },
   {
-    "title": "World Chain Expands Developer Support",
-    "content": "World Chain continues to grow with improved developer tooling and lower transaction costs.",
-    "link": "https://world.org/blog",
-    "time": "2026-02-04"
+    title: "Worldcoin Developer Updates",
+    description: "New tools released for mini app developers.",
+    link: "https://world.org/blog"
   },
   {
-    "title": "World App Global Adoption Update",
-    "content": "World App continues expanding globally with more verified humans joining the network.",
-    "link": "https://world.org/blog",
-    "time": "2026-02-03"
+    title: "Privacy & Proof of Personhood",
+    description: "Improved zero-knowledge proofs announced.",
+    link: "https://world.org/blog"
   },
   {
-    "title": "Privacy and Security Improvements Announced",
-    "content": "World announces new privacy-focused improvements aimed at protecting verified humans.",
-    "link": "https://world.org/blog",
-    "time": "2026-02-02"
+    title: "Worldcoin Ecosystem Growth",
+    description: "New partners join the World ecosystem.",
+    link: "https://world.org/blog"
   }
-]
+];
