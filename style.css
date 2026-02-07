@@ -1,0 +1,102 @@
+/* Reset and base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+  margin: 0;
+  padding: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+  color: #58a6ff;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #8b949e;
+}
+
+#updates-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.update-card {
+  background: #161b22;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.update-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgb(0 0 0 / 0.3);
+}
+
+.update-card h2 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.4rem;
+  color: #58a6ff;
+  line-height: 1.2;
+}
+
+.update-card p {
+  margin: 0 0 1rem 0;
+  color: #c9d1d9;
+  font-size: 1rem;
+}
+
+.update-card a {
+  display: inline-block;
+  color: #79c0ff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-bottom: 1.5px solid transparent;
+  transition: border-color 0.15s ease-in-out;
+}
+
+.update-card a:hover {
+  border-color: #79c0ff;
+  text-decoration: none;
+}
+
+.update-date {
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: #8b949e;
+  text-align: right;
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+  .update-card {
+    padding: 1.2rem 1.4rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .update-card h2 {
+    font-size: 1.2rem;
+  }
+}
