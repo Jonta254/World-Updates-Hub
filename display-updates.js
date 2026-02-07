@@ -1,13 +1,11 @@
 async function loadAndDisplayUpdates() {
   try {
-    const response = await fetch('updates.json');
-    if (!response.ok) {
-      throw new Error('Network response was not ok');
-    }
-    const updates = await response.json();
+    const res = await fetch('updates.json');
+    if (!res.ok) throw new Error('Network response was not ok');
 
+    const updates = await res.json();
     const container = document.getElementById('updates-container');
-    container.innerHTML = ''; // Clear any loading text
+    container.innerHTML = '';
 
     if (updates.length === 0) {
       container.innerHTML = '<p>No updates available.</p>';
@@ -17,14 +15,12 @@ async function loadAndDisplayUpdates() {
     updates.forEach(update => {
       const card = document.createElement('div');
       card.className = 'update-card';
-
       card.innerHTML = `
         <h2>${update.title}</h2>
         <p>${update.content}</p>
         <a href="${update.link}" target="_blank" rel="noopener">Read more</a>
         <div class="update-date">${update.date}</div>
       `;
-
       container.appendChild(card);
     });
   } catch (error) {
@@ -34,5 +30,4 @@ async function loadAndDisplayUpdates() {
   }
 }
 
-// Call the function when the script loads
 loadAndDisplayUpdates();
