@@ -1,32 +1,32 @@
 [
   {
-    "title": "World ID 4.0 Launch 🚀",
-    "content": "Worldcoin introduces World ID 4.0 featuring multiple authenticators and enhanced privacy.",
-    "link": "https://world.org/blog/introducing-world-id-4-0",
-    "date": "2026-02-06"
+    "title": "World ID 4.0 Specification Released 🚀",
+    "content": "Worldcoin launches World ID 4.0 protocol with multiple authenticators, boosting privacy and security.",
+    "link": "https://github.com/worldcoin/world-id-protocol/blob/main/docs%2Fworld-id-4-specs%2FREADME.md",
+    "date": "2026-02-09"
   },
   {
-    "title": "New Mini Apps Released",
-    "content": "Explore the latest mini apps now available inside the World App ecosystem.",
-    "link": "https://world.org/blog/new-mini-apps",
-    "date": "2026-01-30"
+    "title": "World App Debuts Secure Chat & Global Payments",
+    "content": "The new World App integrates secure messaging and global payments with an expanding mini app ecosystem.",
+    "link": "https://world.org/blog/announcements/the-new-world-app-secure-chat-global-payments-and-mini-apps-for-everyone",
+    "date": "2026-02-09"
   },
   {
-    "title": "Developer Tools Update",
-    "content": "World Chain releases new developer tools for faster and easier mini app development.",
-    "link": "https://world.org/blog/developer-tools-update",
-    "date": "2026-01-25"
+    "title": "World Network Launches in Italy 🇮🇹",
+    "content": "World Network makes its Italian debut, marking a key milestone in European expansion.",
+    "link": "https://world.org/blog/announcements/world-network-makes-its-italian-debut",
+    "date": "2026-02-09"
   },
   {
-    "title": "Privacy Enhancements",
-    "content": "Improvements to zero-knowledge proofs strengthen user privacy and security.",
-    "link": "https://world.org/blog/privacy-enhancements",
-    "date": "2026-01-20"
+    "title": "Worldcoin’s Vision for 2025 and Beyond",
+    "content": "An insightful look at Worldcoin’s roadmap and ambitions shaping the future of digital identity.",
+    "link": "https://world.org/blog/announcements/world-in-2025",
+    "date": "2026-02-09"
   },
   {
-    "title": "Worldcoin Partners with New Organizations",
-    "content": "Expanding the ecosystem with new global partners to foster adoption and innovation.",
-    "link": "https://world.org/blog/new-partnerships",
-    "date": "2026-01-15"
+    "title": "Why Proof-of-Human is Now Essential",
+    "content": "Exploring the critical importance of proof-of-human for a fair and secure digital ecosystem.",
+    "link": "https://world.org/blog/announcements/why-proof-of-human-is-now-essential",
+    "date": "2026-02-09"
   }
 ]
